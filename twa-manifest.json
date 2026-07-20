@@ -12,6 +12,7 @@
   "navigationDividerColorDark": "#101828",
   "backgroundColor": "#101828",
   "enableNotifications": true,
+  "splashScreenFadeOutDuration": 300,
   "startUrl": "/dashboard/",
   "iconUrl": "https://planescala.com.br/static/escala/icone-512.png",
   "maskableIconUrl": "https://planescala.com.br/static/escala/icone-maskable-512.png",
