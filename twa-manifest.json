@@ -1,0 +1,56 @@
+{
+  "packageId": "br.com.planescala.app",
+  "host": "planescala.com.br",
+  "name": "PLAN — Gestão integrada para saúde",
+  "launcherName": "PLAN",
+  "display": "standalone",
+  "themeColor": "#101828",
+  "themeColorDark": "#101828",
+  "navigationColor": "#101828",
+  "navigationColorDark": "#101828",
+  "navigationDividerColor": "#101828",
+  "navigationDividerColorDark": "#101828",
+  "backgroundColor": "#101828",
+  "enableNotifications": true,
+  "startUrl": "/dashboard/",
+  "iconUrl": "https://planescala.com.br/static/escala/icone-512.png",
+  "maskableIconUrl": "https://planescala.com.br/static/escala/icone-maskable-512.png",
+  "monochromeIconUrl": "",
+  "shortcuts": [
+    {
+      "name": "Minha Agenda",
+      "shortName": "Agenda",
+      "url": "/dashboard/",
+      "chosenIconUrl": "https://planescala.com.br/static/escala/icone-192.png"
+    },
+    {
+      "name": "Meu Extrato",
+      "shortName": "Extrato",
+      "url": "/extrato/",
+      "chosenIconUrl": "https://planescala.com.br/static/escala/icone-192.png"
+    }
+  ],
+  "signingKey": {
+    "path": "./android.keystore",
+    "alias": "plan"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shellApkVersion": 200,
+  "webManifestUrl": "https://planescala.com.br/static/escala/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://planescala.com.br/",
+  "minSdkVersion": 21,
+  "orientation": "portrait",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "appVersion": "1"
+}

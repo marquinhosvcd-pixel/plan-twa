@@ -1,0 +1,26 @@
+# Projeto Android é REGERADO no CI por `bubblewrap update` a partir do twa-manifest.json.
+# Não versionar os arquivos gerados — o twa-manifest.json é a fonte da verdade.
+app/
+build.gradle
+settings.gradle
+gradle.properties
+gradle/
+gradlew
+gradlew.bat
+manifest-checksum.txt
+store_icon.png
+
+# Artefatos de build
+*.aab
+*.apk
+*.idsig
+build/
+
+# SEGREDOS — NUNCA commitar
+android.keystore
+*.keystore
+*.jks
+.keystore_password.txt
+
+# macOS
+.DS_Store
